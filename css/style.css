@@ -133,7 +133,7 @@ aside form label.tips{
   text-align: right;
   width:120px;
   height:22px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 aside form{
   padding-left: 16%;
@@ -144,6 +144,9 @@ aside form p{
   font-weight: lighter;
   color:lightgray;
   margin-bottom: 20px;
+}
+aside form .text-area{
+  float: left;
 }
 aside form textarea{
   height:80px;
@@ -164,6 +167,5 @@ footer{
   height: 50px;
   text-align: center;
   line-height: 50px;
-  margin: 10px;
   color:white;
 }
