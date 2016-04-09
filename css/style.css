@@ -7,6 +7,7 @@ header .title{
 }
 header .title img{
   height:100px;
+  padding: 0px;
 }
 header nav.nav-list{
   float: right;
@@ -15,10 +16,154 @@ header nav.nav-list li{
   float:left;
   padding: 20px;
   margin-top: 20px;
-
+  list-style:circle;
 }
 header nav.nav-list li a{
   text-decoration: none;
   color:white;
+  font-size: 1.8em;
+}
+header nav.nav-list li a:hover{
+  color:lightgray;
+}
+header nav.nav-list li:hover{
+  list-style: disc;
+}
+
+article,aside{
+  padding: 20px;
+  margin: 20px;
+  border:outset;
+  background-color: white;
+
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3{
+  font-size: 2.0em;
+  color:#6F666E;
+  margin-bottom: 10px;
+}
+author,time{
+  font-size: 0.8em;
+  color:#6F666E;
+  line-height: 30px;
+}
+p{
+  font-size: 1.6em;
+  text-indent: 2em;
+  line-height: 150%;
+}
+.ul li{
+  list-style: none;
   font-size: 1.5em;
+  line-height: 150%;
+  text-indent: 1.5em;
+}
+
+img{
+  padding: 5px;
+}
+
+figure{
+  width:200px;
+  border:1px solid lightgray;
+  padding: 5px;
+  margin: 10px;
+}
+figure figcaption{
+  text-align: center;
+  padding: 5px;
+}
+figure img{
+  width:190px;
+}
+
+ol{
+  margin-left: 30px;
+  line-height: 150%;
+  font-size: 1.5em;
+}
+
+table{
+  background-color: white;
+  width:100%;
+  border-collapse: collapse;
+  empty-cells: show;
+  line-height: 150%;
+  text-indent: 0.5em;
+  border: 1px solid lightgray;
+}
+table td{
+  border: 1px solid lightgray;
+}
+table tfoot td{
+  border:0;
+}
+table thead{
+  background-color: #333333;
+  color:white;
+}
+
+tfoot{
+  background-color: lightgray;
+  font-weight: lighter;
+}
+
+aside h2{
+  border-left: 3px solid lightgray;
+}
+
+/*aside form label{
+  width: 35%;
+  text-align: right;
+  display: inline-block;
+}
+
+aside form .tip{
+  width:35%;
+}*/
+aside form label.tips{
+  display: inline-block;
+  text-align: right;
+  width:120px;
+  height:22px;
+  padding-right: 5px;
+}
+aside form{
+  padding-left: 16%;
+}
+
+aside form p{
+  margin-left: 110px;
+  font-weight: lighter;
+  color:lightgray;
+  margin-bottom: 20px;
+}
+aside form textarea{
+  height:80px;
+  width:60%;
+}
+button {
+  background-color: #3355D0;
+  width:100%;
+  height:40px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  color:white;
+  font-weight: 900;
+}
+footer{
+  background-color: #000000;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+  color:white;
 }
